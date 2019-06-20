@@ -70,7 +70,7 @@ variable "rds_instance_identifier" {
 variable "rds_vpc_id" {
   description = "VPC to connect to, used for a security group"
   type        = "string"
-  default     = "vpc-0a0d9355d92b3bbcf"
+  default     = ""
 }
 
 variable "rds_subnets" {
