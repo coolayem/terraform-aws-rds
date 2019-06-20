@@ -200,11 +200,6 @@ variable "create_monitoring_role" {
   default     = false
 }
 
-variable "init_db" {
-  description = "True if we need to execute 'init' script for database."
-  default     = false
-}
-
 variable "cloudwatch_logs_exports" {
   description = "List of log types to be exported to cloudwatch"
 
