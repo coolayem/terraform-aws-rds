@@ -33,7 +33,7 @@ variable "database_user" {
 }
 
 variable "database_password" {
-  default = "p0stg43$"
+  default = ""
 }
 
 variable "database_port" {
